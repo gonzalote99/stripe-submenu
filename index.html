@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="clicky.css">
+  <title>stripe submenu</title>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" hidden >
+    <symbol id="arrow" viewbox="0 0 16 16" >
+      <polyline points="4 6, 8 10, 12 6" stroke="#000" stroke-width="2" fill="transparent" stroke-linecap="round"   />
+    </symbol>
+    </svg>
+  <nav id="site-navigation" class="site-navigation" aria-label="clickable menu">
+    <ul class="main-menu clicky-menu no-js">
+      <li>
+        <a href="#">home</a>
+      </li>
+      <li>
+       <a href="#">services 
+         <svg aria-hidden="true" width="16" height="16">
+          <use xlink:href="#arrow" />
+         </svg>
+       </a>
+       <ul>
+        <li><a href="#" >design</a></li>
+        <li><a href="#" >development</a></li>
+        <li><a href="#" >accessibility</a></li>
+        <li><a href="#" >strategy</a></li>
+        <li><a href="#" >training</a></li>
+       </ul>
+      </li>
+      <li>
+       <a href="#">
+          portfolio
+          <svg aria-hidden="true" width="16" height="16">
+           <use xlink:href="#arrow" />
+          </svg>
+       </a>
+       <ul>
+         <li><a href="#">nonprofits</a></li>
+         <li><a href="#">higher education</a></li>
+         <li><a href="#">associations</a></li>
+         <li><a href="#">consultants</a></li>
+       </ul>
+      </li>
+      <li>
+        <a href="#">
+           about
+           <svg aria-hidden="true" width="16" height="16">
+            <use xlink:href="#arrow" />
+           </svg>
+        </a>
+        <ul>
+          <li><a href="#">mission</a></li>
+          <li><a href="#">history</a></li>
+          <li><a href="#">contact</a></li>
+          
+        </ul>
+       </li>
+
+    </ul>
+  
+  </nav>
+</body>
+</html>
